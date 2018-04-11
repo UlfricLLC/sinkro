@@ -5,10 +5,9 @@ import java.nio.file.FileSystem;
 import com.google.common.truth.Truth;
 import com.ulfric.acrodb.Bucket;
 import com.ulfric.acrodb.DocumentStore;
-import com.ulfric.allsystemsgo.AllSystemsContract;
 import com.ulfric.allsystemsgo.AllSystemsTest;
 
-public class SinkTest implements AllSystemsContract {
+public class SinkTest {
 
 	@AllSystemsTest
 	void testAdding(FileSystem fileSystem) {
